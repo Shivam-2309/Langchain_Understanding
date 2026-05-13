@@ -7,6 +7,7 @@ from pydantic import BaseModel
 
 class Review(BaseModel):
     name: str
+# Field funcitons can be used to provide additional information about the fields, such as a description or an example.
 
 load_dotenv()
 model = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.7)
