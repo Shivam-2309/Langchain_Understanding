@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "answer_length",
+        "paper",
+        "question_type"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are a helpful assistant. Please provide a {answer_length} answer to the following question about \n    the research paper '{paper}': {question_type}",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
